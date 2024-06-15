@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+body{
+    position: relative;
+    margin: 0 auto;
+}
+.container-header{
+    width: 45vw;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+header{
+    background-color: rgb(247, 106, 6);
+}
+a{
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 0.85em;
+}
+.logo{
+    display: block;
+    height: 4vw;
+    margin: auto;
+    padding: 10px;
+}
+.container-body{
+    padding-top: 30px;
+    width: 1000px;
+    margin: auto;
+    display: flex;
+}
+.prodotto-top{
+    position: relative;
+}
+.cuore{
+    display:block;
+    font-size: 3em;
+    position: absolute;
+    top:2%;
+    right: 0;
+    color: black ; 
+    background-color: white;
+    padding: 5px;
+}  
+.prodotto{
+    width: 32%;
+    padding: 10px;
+}
+.sale{
+    position: absolute;
+    left: 0;
+    bottom: 10%;
+    background-color: red;
+    color: white;
+    padding: 5px;
+}
+.sostenibilità{
+    position: absolute;
+    left: 50px;
+    bottom: 10%;
+    background-color: green;
+    color: white;
+    padding: 5px;
+}
+.text{
+    text-align: start;
+}
+i{
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+.text-oggetto{
+    font-size: 1.1rem;
+}
+.prezzo-rosso {
+    color: red;
+}
+footer{
+    background-color: black;
+}
+h5{
+    padding: 5px;
+    color: white;
+}
+.container-footer{
+    margin: auto;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+.dove-trovarci{
+    display: inline-block;
+}
